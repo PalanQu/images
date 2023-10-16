@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T07:43:34.686Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="tjvrsgQr9WkvM35pmfD_" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T07:45:44.860Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="AGSNL-_rdT0S9XGL2oI4" version="21.8.2" type="github">
   <diagram name="第 1 页" id="4bH2OYBJ3_KZCi955wEy">
     <mxGraphModel dx="1147" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,6 +87,15 @@
         </mxCell>
         <mxCell id="E2lpH6JICNwfV7jySXcB-31" value="采样率更高" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="220" y="105" width="102.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E2lpH6JICNwfV7jySXcB-33" value="数据可视化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="470" y="65" width="102.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E2lpH6JICNwfV7jySXcB-34" value="日志聚类" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="590" y="65" width="102.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E2lpH6JICNwfV7jySXcB-35" value="存储时间长" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="710" y="65" width="102.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
