@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T07:46:13.416Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="erfoj5a_UvvTuNd96uqb" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T07:46:26.437Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="oL9sqx0ZKx2OEsiKas7s" version="21.8.2" type="github">
   <diagram name="第 1 页" id="4bH2OYBJ3_KZCi955wEy">
     <mxGraphModel dx="1147" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,9 +92,6 @@
           <mxGeometry x="470" y="65" width="102.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="E2lpH6JICNwfV7jySXcB-34" value="日志聚类" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="590" y="65" width="102.5" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="E2lpH6JICNwfV7jySXcB-35" value="存储时间长" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="710" y="65" width="102.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="E2lpH6JICNwfV7jySXcB-36" value="trace联动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
