@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T09:03:53.673Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="IC48XnQ6-GuNxf4ktzue" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T09:04:42.247Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="b6lwUGQjoFvReJpTJPaE" version="21.8.2" type="github">
   <diagram name="第 1 页" id="4bH2OYBJ3_KZCi955wEy">
     <mxGraphModel dx="1147" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -116,13 +116,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="E2lpH6JICNwfV7jySXcB-42" value="稳定性" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="165" y="1120" width="120" height="90" as="geometry" />
+          <mxGeometry x="165" y="1050" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="E2lpH6JICNwfV7jySXcB-43" value="成本" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="435" y="1120" width="120" height="90" as="geometry" />
+          <mxGeometry x="435" y="1050" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="E2lpH6JICNwfV7jySXcB-44" value="运维" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="705" y="1120" width="120" height="90" as="geometry" />
+          <mxGeometry x="705" y="1050" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="E2lpH6JICNwfV7jySXcB-45" value="产品角度" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="730" width="60" height="30" as="geometry" />
@@ -155,16 +155,19 @@
           <mxGeometry x="20" y="940" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E2lpH6JICNwfV7jySXcB-57" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="130" y="950" width="120" height="110" as="geometry" />
+          <mxGeometry x="130" y="840" width="120" height="150" as="geometry" />
         </mxCell>
         <mxCell id="E2lpH6JICNwfV7jySXcB-58" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="E2lpH6JICNwfV7jySXcB-57">
-          <mxGeometry width="120" height="110" as="geometry" />
+          <mxGeometry width="120" height="150" as="geometry" />
         </mxCell>
         <mxCell id="E2lpH6JICNwfV7jySXcB-59" value="sdk" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="E2lpH6JICNwfV7jySXcB-57">
-          <mxGeometry x="30" y="9.995882352941177" width="60" height="14.117647058823529" as="geometry" />
+          <mxGeometry x="30" y="10.003529411764703" width="60" height="26.470588235294116" as="geometry" />
+        </mxCell>
+        <mxCell id="E2lpH6JICNwfV7jySXcB-69" value="埋点监控" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="E2lpH6JICNwfV7jySXcB-57">
+          <mxGeometry x="30" y="55" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="E2lpH6JICNwfV7jySXcB-62" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="354" y="950" width="120" height="80" as="geometry" />
+          <mxGeometry x="340" y="840" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="E2lpH6JICNwfV7jySXcB-63" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="E2lpH6JICNwfV7jySXcB-62">
           <mxGeometry width="120" height="80" as="geometry" />
