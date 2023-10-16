@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T09:07:10.943Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="BlVzikFOHboGkiYTUXpD" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T09:07:48.099Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="hkYhwNlZAmsMAlKHeSif" version="21.8.2" type="github">
   <diagram name="第 1 页" id="4bH2OYBJ3_KZCi955wEy">
     <mxGraphModel dx="896" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -183,6 +183,12 @@
         </mxCell>
         <mxCell id="E2lpH6JICNwfV7jySXcB-71" value="推广" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="725" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E2lpH6JICNwfV7jySXcB-72" value="宣传推广" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="657.5" y="730" width="102.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E2lpH6JICNwfV7jySXcB-73" value="升级落地" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="770" y="730" width="102.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
