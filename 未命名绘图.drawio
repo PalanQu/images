@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T11:56:55.364Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="KZVFqOILLOsgvmmzWYo9" version="22.0.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-23T12:02:55.065Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="re4u63lstrK4bGaoIk7s" version="22.0.5" type="github" pages="2">
   <diagram name="第 1 页" id="4bH2OYBJ3_KZCi955wEy">
     <mxGraphModel dx="1434" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -230,60 +230,48 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7uWMZ5e5fYzwZ_ArRHcU" name="第 2 页">
-    <mxGraphModel dx="667" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MtT354s7hzqomfU95Qvo-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MtT354s7hzqomfU95Qvo-1" target="MtT354s7hzqomfU95Qvo-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="MtT354s7hzqomfU95Qvo-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="90" y="780" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MtT354s7hzqomfU95Qvo-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MtT354s7hzqomfU95Qvo-4" target="MtT354s7hzqomfU95Qvo-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="230" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MtT354s7hzqomfU95Qvo-4" value="loghub" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="290" y="780" width="120" height="60" as="geometry" />
+          <mxGeometry x="484.83000000000004" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MtT354s7hzqomfU95Qvo-6" value="redis-存储服务的日志模板" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" parent="1" vertex="1">
-          <mxGeometry x="125" y="910" width="59.52" height="50" as="geometry" />
+          <mxGeometry x="265" y="910" width="59.52" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MtT354s7hzqomfU95Qvo-7" value="ilogtail-ds" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="780" width="60" height="30" as="geometry" />
+          <mxGeometry x="260" y="780" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MtT354s7hzqomfU95Qvo-8" value="服务1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="820" width="40" height="20" as="geometry" />
+          <mxGeometry x="250" y="820" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MtT354s7hzqomfU95Qvo-9" value="服务2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="820" width="40" height="20" as="geometry" />
+          <mxGeometry x="300" y="820" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MtT354s7hzqomfU95Qvo-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=17.804878048780488;endSize=5.7804878048780495;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="125" y="850" as="sourcePoint" />
-            <mxPoint x="125" y="900" as="targetPoint" />
+            <mxPoint x="265" y="850" as="sourcePoint" />
+            <mxPoint x="265" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MtT354s7hzqomfU95Qvo-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=17.804878048780488;endSize=5.7804878048780495;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="180" y="850" as="sourcePoint" />
-            <mxPoint x="180" y="900" as="targetPoint" />
+            <mxPoint x="320" y="850" as="sourcePoint" />
+            <mxPoint x="320" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MtT354s7hzqomfU95Qvo-15" value="watch" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="132.02" y="850" width="45.48" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="MtT354s7hzqomfU95Qvo-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MtT354s7hzqomfU95Qvo-16" target="MtT354s7hzqomfU95Qvo-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="MtT354s7hzqomfU95Qvo-15" value="定期读" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="267.26" y="860" width="45.48" height="10" as="geometry" />
         </mxCell>
         <mxCell id="MtT354s7hzqomfU95Qvo-16" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://mms.businesswire.com/media/20210920005219/en/907516/23/clickhouse-logo.jpg;" parent="1" vertex="1">
           <mxGeometry x="490" y="780" width="114.83" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MtT354s7hzqomfU95Qvo-19" value="xray-query-log" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="487.42" y="900" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MtT354s7hzqomfU95Qvo-21" value="只读" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="131.52" y="868" width="45.48" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
