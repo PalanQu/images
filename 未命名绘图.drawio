@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T12:44:28.122Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="X2Wz_JM4WIQ_qfSqYSER" version="22.0.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-25T07:53:35.190Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="uZQKcNUUD_vTUKmcHGeA" version="22.0.5" type="github" pages="2">
   <diagram name="第 1 页" id="4bH2OYBJ3_KZCi955wEy">
     <mxGraphModel dx="1434" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -296,8 +296,8 @@
         <mxCell id="cdjS94fAIqh9wcFRpSFj-8" value="3. 通过服务聚类模型对日志聚类，得到类别id，0位unknown，为日志增加一个字段" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="360" y="745" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cdjS94fAIqh9wcFRpSFj-13" value="定期更新" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="990" width="60" height="10" as="geometry" />
+        <mxCell id="cdjS94fAIqh9wcFRpSFj-13" value="5.定期查询日志类别为0的日志，时间片？limit？再训练模型，结果写回ck" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="930" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cdjS94fAIqh9wcFRpSFj-14" value="redis-存储服务的日志模板" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="180" y="920" width="80" height="30" as="geometry" />
@@ -307,6 +307,9 @@
         </mxCell>
         <mxCell id="cdjS94fAIqh9wcFRpSFj-17" value="4. 写ck" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="570" y="775" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cdjS94fAIqh9wcFRpSFj-18" value="6. 模型写redis" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="950" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
