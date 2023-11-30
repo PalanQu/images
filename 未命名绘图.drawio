@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T12:13:09.437Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="veLqSXsOvYbrTwPsEwT7" version="22.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-11-30T12:22:10.251Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Im19jz0S0oa5K-1K3w5U" version="22.1.5" type="github" pages="2">
   <diagram name="第 1 页" id="4bH2OYBJ3_KZCi955wEy">
     <mxGraphModel dx="5736" dy="3180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -304,7 +304,7 @@
             <mxPoint x="280" y="1010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MtT354s7hzqomfU95Qvo-19" value="xray-query-log" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="MtT354s7hzqomfU95Qvo-19" value="xray-log-scheduler" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="450" y="980" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cdjS94fAIqh9wcFRpSFj-1" value="服务1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -319,7 +319,7 @@
         <mxCell id="cdjS94fAIqh9wcFRpSFj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.825;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="cdjS94fAIqh9wcFRpSFj-2" target="MtT354s7hzqomfU95Qvo-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cdjS94fAIqh9wcFRpSFj-8" value="3. 通过服务聚类模型对日志聚类，得到类别id，0位unknown，为日志增加一个字段" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="cdjS94fAIqh9wcFRpSFj-8" value="3. 通过服务聚类模型对日志聚类，得到类别id，0为unknown" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="360" y="745" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cdjS94fAIqh9wcFRpSFj-13" value="5.定期查询日志类别为0的日志重新训练" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -336,6 +336,12 @@
         </mxCell>
         <mxCell id="cdjS94fAIqh9wcFRpSFj-18" value="6. 模型写redis" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="950" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e1HU1wtUi2cfpGQW1TmJ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e1HU1wtUi2cfpGQW1TmJ-1" target="MtT354s7hzqomfU95Qvo-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1HU1wtUi2cfpGQW1TmJ-1" value="xray-log-query" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="627.42" y="660" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
