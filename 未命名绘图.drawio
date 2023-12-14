@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T07:53:22.321Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="9S7qhQyCIzL5ZqpQtOvA" version="22.1.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-14T07:58:07.806Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="AmlxKVD2JPxuStnrXP4L" version="22.1.8" type="github" pages="3">
   <diagram name="第 1 页" id="4bH2OYBJ3_KZCi955wEy">
     <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -350,7 +350,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9Eq4azyXayrLsXkYLuv8" name="第 3 页">
-    <mxGraphModel dx="1783" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -363,8 +363,16 @@
         <mxCell id="b1OFihZOLfPLK1KafSw--3" value="网宿" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="550" y="198" width="50" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="kn1sMpdRVfFrqixm7f1H-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b1OFihZOLfPLK1KafSw--5" target="kn1sMpdRVfFrqixm7f1H-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kn1sMpdRVfFrqixm7f1H-15" value="3. 请求网宿pop点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kn1sMpdRVfFrqixm7f1H-14">
+          <mxGeometry x="-0.2361" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="b1OFihZOLfPLK1KafSw--5" value="客户端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="-190" y="540" width="30" height="60" as="geometry" />
+          <mxGeometry x="75" y="540" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b1OFihZOLfPLK1KafSw--13" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b1OFihZOLfPLK1KafSw--6" target="b1OFihZOLfPLK1KafSw--7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -399,10 +407,57 @@
           <mxGeometry x="250" y="100" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kn1sMpdRVfFrqixm7f1H-2" value="小红书lb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="515" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kn1sMpdRVfFrqixm7f1H-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kn1sMpdRVfFrqixm7f1H-3" target="kn1sMpdRVfFrqixm7f1H-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kn1sMpdRVfFrqixm7f1H-18" value="4. 请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kn1sMpdRVfFrqixm7f1H-17">
+          <mxGeometry x="-0.2171" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="kn1sMpdRVfFrqixm7f1H-3" value="网宿国外接入点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="294" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kn1sMpdRVfFrqixm7f1H-9" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="530" as="sourcePoint" />
+            <mxPoint x="90" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn1sMpdRVfFrqixm7f1H-11" value="1.请求t2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="448" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kn1sMpdRVfFrqixm7f1H-12" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="380" as="sourcePoint" />
+            <mxPoint x="110" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn1sMpdRVfFrqixm7f1H-13" value="2.获得t2.wangsu.com" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="105" y="448" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kn1sMpdRVfFrqixm7f1H-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kn1sMpdRVfFrqixm7f1H-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn1sMpdRVfFrqixm7f1H-21" value="5. 读取回源配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kn1sMpdRVfFrqixm7f1H-20">
+          <mxGeometry x="-0.0551" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn1sMpdRVfFrqixm7f1H-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kn1sMpdRVfFrqixm7f1H-16" target="kn1sMpdRVfFrqixm7f1H-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kn1sMpdRVfFrqixm7f1H-25" value="6. 网宿全球专线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kn1sMpdRVfFrqixm7f1H-24">
+          <mxGeometry x="-0.2327" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn1sMpdRVfFrqixm7f1H-16" value="网宿服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
