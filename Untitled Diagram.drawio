@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-23T09:59:01.192Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="1TtQpr0m-eBxZfPYT_Ai" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-23T09:59:20.850Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="dIr963zMeifdKKxpL36w" version="22.1.11" type="github">
   <diagram name="Page-1" id="h1spXaMXtqRSPBxJIH6n">
     <mxGraphModel dx="781" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3mjMO6Xbsuwox6FaDEuM-8" value="2. mint" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3mjMO6Xbsuwox6FaDEuM-7">
+        <mxCell id="3mjMO6Xbsuwox6FaDEuM-8" value="2. mining" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3mjMO6Xbsuwox6FaDEuM-7">
           <mxGeometry x="0.0357" y="-2" relative="1" as="geometry">
             <mxPoint x="-40" y="3" as="offset" />
           </mxGeometry>
@@ -38,7 +38,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3mjMO6Xbsuwox6FaDEuM-17" value="4. mint" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3mjMO6Xbsuwox6FaDEuM-16">
+        <mxCell id="3mjMO6Xbsuwox6FaDEuM-17" value="4. mining" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3mjMO6Xbsuwox6FaDEuM-16">
           <mxGeometry x="0.3869" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
