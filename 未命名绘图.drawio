@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-08T02:16:10.556Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="qJLC21OOiqLTyO_zE4ur" version="22.1.17" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-01-08T02:21:28.121Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ujDGIwuMQ5PxPywLSYIJ" version="22.1.17" type="github" pages="4">
   <diagram name="第 1 页" id="4bH2OYBJ3_KZCi955wEy">
     <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -528,6 +528,9 @@
         </mxCell>
         <mxCell id="-5drt3ra3qOCPZFsB8Tc-17" value="oss" style="rounded=1;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="1">
           <mxGeometry x="290" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-5drt3ra3qOCPZFsB8Tc-22" value="{业务名}_sensor_file_processed" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="40" y="830" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
