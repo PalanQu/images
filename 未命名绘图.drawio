@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T02:46:14.015Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="mT8Y8UNta6U82zmijfdk" version="24.0.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-04-01T02:47:21.385Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="dFqv0BA3qNWKfcXtFubD" version="24.0.4" type="github" pages="8">
   <diagram name="第 1 页" id="4bH2OYBJ3_KZCi955wEy">
     <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -936,7 +936,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MSgIy81MkAr847-U_wpc-54" value="数据采集" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="860" y="640" width="100" height="40" as="geometry" />
+          <mxGeometry x="860" y="630" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MSgIy81MkAr847-U_wpc-55" value="数据存储" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="860" y="750" width="100" height="40" as="geometry" />
