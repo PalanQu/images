@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T02:56:38.006Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="cyzbJuu2ZobZU_Li5TRS" version="24.0.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-04-01T03:01:12.563Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="t5axJkqcL5YdOQNSP9ur" version="24.0.4" type="github" pages="8">
   <diagram name="第 1 页" id="4bH2OYBJ3_KZCi955wEy">
     <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -944,13 +944,13 @@
         <mxCell id="MSgIy81MkAr847-U_wpc-56" value="数据传输" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="860" y="880" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MSgIy81MkAr847-U_wpc-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MSgIy81MkAr847-U_wpc-57" target="MSgIy81MkAr847-U_wpc-58">
+        <mxCell id="MSgIy81MkAr847-U_wpc-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="MSgIy81MkAr847-U_wpc-57" target="MSgIy81MkAr847-U_wpc-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MSgIy81MkAr847-U_wpc-57" value="distcp" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" vertex="1" parent="1">
+        <mxCell id="MSgIy81MkAr847-U_wpc-57" value="distcp" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="535" y="870" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MSgIy81MkAr847-U_wpc-58" value="hive" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" vertex="1" parent="1">
+        <mxCell id="MSgIy81MkAr847-U_wpc-58" value="hive" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="535" y="990" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MSgIy81MkAr847-U_wpc-63" value="iceberg" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" vertex="1" parent="1">
@@ -1026,6 +1026,12 @@
         </mxCell>
         <mxCell id="MSgIy81MkAr847-U_wpc-83" value="离线数据感知" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="640" y="820" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MSgIy81MkAr847-U_wpc-84" value="可观测负责" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MSgIy81MkAr847-U_wpc-85" value="界限模糊" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
