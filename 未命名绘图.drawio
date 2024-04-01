@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T02:02:38.044Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="pOUw_UWAsMpvdvVPbS_2" version="24.0.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-04-01T02:09:10.453Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="A09hRzJVYpRLu5gJq8MP" version="24.0.4" type="github" pages="8">
   <diagram name="第 1 页" id="4bH2OYBJ3_KZCi955wEy">
     <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -788,27 +788,70 @@
     </mxGraphModel>
   </diagram>
   <diagram id="n7sL3r-CB54Nwra6RQGN" name="第 8 页">
-    <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1103" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MSgIy81MkAr847-U_wpc-6" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="10" width="220" height="320" as="geometry" />
+        </mxCell>
         <mxCell id="MSgIy81MkAr847-U_wpc-7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="10" width="220" height="820" as="geometry" />
+          <mxGeometry x="610" y="10" width="220" height="320" as="geometry" />
         </mxCell>
         <mxCell id="MSgIy81MkAr847-U_wpc-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="10" width="220" height="820" as="geometry" />
+          <mxGeometry x="110" y="10" width="220" height="320" as="geometry" />
         </mxCell>
         <mxCell id="MSgIy81MkAr847-U_wpc-2" value="流批一体链路" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="150" y="20" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="MSgIy81MkAr847-U_wpc-6" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="10" width="220" height="820" as="geometry" />
         </mxCell>
         <mxCell id="MSgIy81MkAr847-U_wpc-3" value="agentsmith链路" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="409" y="20" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MSgIy81MkAr847-U_wpc-5" value="logserver链路" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="655" y="20" width="130" height="30" as="geometry" />
+          <mxGeometry x="665" y="20" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MSgIy81MkAr847-U_wpc-8" value="数据产生" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="860" y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MSgIy81MkAr847-U_wpc-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MSgIy81MkAr847-U_wpc-10" target="MSgIy81MkAr847-U_wpc-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MSgIy81MkAr847-U_wpc-17" value="HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MSgIy81MkAr847-U_wpc-16">
+          <mxGeometry x="-0.1125" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MSgIy81MkAr847-U_wpc-10" value="客户端" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="665" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MSgIy81MkAr847-U_wpc-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MSgIy81MkAr847-U_wpc-12" target="MSgIy81MkAr847-U_wpc-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MSgIy81MkAr847-U_wpc-22" value="eventlogger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MSgIy81MkAr847-U_wpc-21">
+          <mxGeometry x="0.0375" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MSgIy81MkAr847-U_wpc-12" value="服务端" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="414" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MSgIy81MkAr847-U_wpc-23" value="eventlogger" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MSgIy81MkAr847-U_wpc-13" target="MSgIy81MkAr847-U_wpc-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MSgIy81MkAr847-U_wpc-13" value="服务端" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="160" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MSgIy81MkAr847-U_wpc-14" value="数据接入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="860" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MSgIy81MkAr847-U_wpc-15" value="公网LB" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="665" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MSgIy81MkAr847-U_wpc-18" value="主机磁盘" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MSgIy81MkAr847-U_wpc-20" value="主机磁盘" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
