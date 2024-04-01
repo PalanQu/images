@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T02:53:08.188Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="TIEiGMjv6ztv_iJspuud" version="24.0.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-04-01T02:56:38.006Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="cyzbJuu2ZobZU_Li5TRS" version="24.0.4" type="github" pages="8">
   <diagram name="第 1 页" id="4bH2OYBJ3_KZCi955wEy">
     <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -788,7 +788,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="n7sL3r-CB54Nwra6RQGN" name="第 8 页">
-    <mxGraphModel dx="1974" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2739" dy="1060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -842,7 +842,7 @@
         <mxCell id="MSgIy81MkAr847-U_wpc-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MSgIy81MkAr847-U_wpc-15" target="MSgIy81MkAr847-U_wpc-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MSgIy81MkAr847-U_wpc-15" value="公网LB" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" vertex="1" parent="1">
+        <mxCell id="MSgIy81MkAr847-U_wpc-15" value="公网LB" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="665" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MSgIy81MkAr847-U_wpc-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MSgIy81MkAr847-U_wpc-28">
@@ -856,7 +856,7 @@
         <mxCell id="MSgIy81MkAr847-U_wpc-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MSgIy81MkAr847-U_wpc-29" target="MSgIy81MkAr847-U_wpc-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MSgIy81MkAr847-U_wpc-29" value="对象存储" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" vertex="1" parent="1">
+        <mxCell id="MSgIy81MkAr847-U_wpc-29" value="对象存储" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="535" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MSgIy81MkAr847-U_wpc-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MSgIy81MkAr847-U_wpc-30" target="MSgIy81MkAr847-U_wpc-32">
@@ -867,10 +867,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MSgIy81MkAr847-U_wpc-30" value="logserver" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" vertex="1" parent="1">
+        <mxCell id="MSgIy81MkAr847-U_wpc-30" value="logserver" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="665" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MSgIy81MkAr847-U_wpc-32" value="磁盘" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" vertex="1" parent="1">
+        <mxCell id="MSgIy81MkAr847-U_wpc-32" value="磁盘" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="360" y="480" width="470" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MSgIy81MkAr847-U_wpc-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MSgIy81MkAr847-U_wpc-33" target="MSgIy81MkAr847-U_wpc-32">
@@ -881,10 +881,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MSgIy81MkAr847-U_wpc-33" value="Agentsmith Daemonset" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MSgIy81MkAr847-U_wpc-33" value="Agentsmith Daemonset" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="535" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MSgIy81MkAr847-U_wpc-34" value="SDK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MSgIy81MkAr847-U_wpc-34" value="SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="414" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MSgIy81MkAr847-U_wpc-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.231;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
@@ -893,7 +893,7 @@
             <mxPoint x="473.58" y="479.99999999999994" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MSgIy81MkAr847-U_wpc-39" value="SDK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MSgIy81MkAr847-U_wpc-39" value="SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="160" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MSgIy81MkAr847-U_wpc-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MSgIy81MkAr847-U_wpc-33" target="MSgIy81MkAr847-U_wpc-29">
@@ -914,7 +914,7 @@
             <mxPoint x="270" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MSgIy81MkAr847-U_wpc-46" value="Agentsmith&amp;nbsp;&lt;div&gt;Cluster&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MSgIy81MkAr847-U_wpc-46" value="Agentsmith&amp;nbsp;&lt;div&gt;Cluster&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="240" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MSgIy81MkAr847-U_wpc-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MSgIy81MkAr847-U_wpc-46" target="MSgIy81MkAr847-U_wpc-29">
@@ -965,7 +965,7 @@
         <mxCell id="MSgIy81MkAr847-U_wpc-68" value="数据引擎" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="860" y="1000" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MSgIy81MkAr847-U_wpc-69" value="Agentsmith管控平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MSgIy81MkAr847-U_wpc-69" value="Agentsmith管控平台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-110" y="10" width="120" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="MSgIy81MkAr847-U_wpc-70" value="kafka events平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1023,6 +1023,9 @@
           <mxGeometry x="-0.2835" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MSgIy81MkAr847-U_wpc-83" value="离线数据感知" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="820" width="85" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
