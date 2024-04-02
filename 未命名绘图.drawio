@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T02:16:38.234Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="SGFGEWEVvzEg5gfAWfuC" version="24.2.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-04-02T02:21:19.523Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="J2AQKRT7DrNuShRBr_iI" version="24.2.1" type="github" pages="9">
   <diagram name="第 1 页" id="4bH2OYBJ3_KZCi955wEy">
     <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1339,6 +1339,21 @@
         </mxCell>
         <mxCell id="Y_0J5MG5_4q3l3hCfrCV-85" value="主要业务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="1191" y="-140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_0J5MG5_4q3l3hCfrCV-86" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-290" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_0J5MG5_4q3l3hCfrCV-88" value="机审" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-270" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_0J5MG5_4q3l3hCfrCV-89" value="增长算法" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-270" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_0J5MG5_4q3l3hCfrCV-90" value="AI平台" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-210" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_0J5MG5_4q3l3hCfrCV-91" value="排序" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-210" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
