@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T02:54:38.661Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="CoTmQv0_eHDD_MXEYW_4" version="24.2.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-04-02T02:57:21.713Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="F83HDug3P428jt6yuDCj" version="24.2.1" type="github" pages="9">
   <diagram name="第 1 页" id="4bH2OYBJ3_KZCi955wEy">
     <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1070,7 +1070,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lIYmcXxjECRAtVnbZ90a" name="第 9 页">
-    <mxGraphModel dx="2336" dy="2006" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1752" dy="1682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1486,6 +1486,21 @@
         </mxCell>
         <mxCell id="Y_0J5MG5_4q3l3hCfrCV-139" value="hive" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="726" y="1162" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_0J5MG5_4q3l3hCfrCV-142" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="359.5" y="1280" width="261" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_0J5MG5_4q3l3hCfrCV-143" value="spark" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="391" y="1300" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_0J5MG5_4q3l3hCfrCV-144" value="HiveSQL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_0J5MG5_4q3l3hCfrCV-145" value="StarRocks" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_0J5MG5_4q3l3hCfrCV-146" value="数千个任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1340" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
