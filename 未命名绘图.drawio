@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-12T06:21:45.751Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="wb0RfFeN40IanMKosRYs" version="24.2.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-04-12T07:46:52.225Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="XlqmTVH3cV4PNGe1X8c-" version="24.2.3" type="github" pages="10">
   <diagram name="第 1 页" id="4bH2OYBJ3_KZCi955wEy">
     <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -373,8 +373,8 @@
         <mxCell id="_0f5t6AqNhmyjZZCtn_g-8" value="服务2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="230" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_0f5t6AqNhmyjZZCtn_g-10" value="2. 定期读服务聚类模型" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="280" width="105.48" height="10" as="geometry" />
+        <mxCell id="_0f5t6AqNhmyjZZCtn_g-10" value="3. 未分类的日志采样发送" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="260" width="105.48" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_0f5t6AqNhmyjZZCtn_g-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://mms.businesswire.com/media/20210920005219/en/907516/23/clickhouse-logo.jpg;" vertex="1" parent="1">
           <mxGeometry x="560" y="190" width="114.83" height="60" as="geometry" />
@@ -397,11 +397,8 @@
         <mxCell id="_0f5t6AqNhmyjZZCtn_g-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.825;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_0f5t6AqNhmyjZZCtn_g-16" target="_0f5t6AqNhmyjZZCtn_g-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_0f5t6AqNhmyjZZCtn_g-19" value="3. 通过服务聚类模型对日志聚类，得到类别id，0为unknown，结果写CK" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="_0f5t6AqNhmyjZZCtn_g-19" value="2. 通过服务聚类模型对日志聚类，得到类别id，0为unknown，结果写CK" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="460" y="155" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_0f5t6AqNhmyjZZCtn_g-20" value="4.定期查询日志类别为0的日志重新训练" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="475" y="280" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_0f5t6AqNhmyjZZCtn_g-21" value="redis-存储服务的日志模板" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="490" width="80" height="30" as="geometry" />
@@ -410,7 +407,7 @@
           <mxGeometry x="80" y="170" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_0f5t6AqNhmyjZZCtn_g-24" value="5. 模型写redis" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="414" y="375" width="110" height="60" as="geometry" />
+          <mxGeometry x="400" y="375" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_0f5t6AqNhmyjZZCtn_g-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_0f5t6AqNhmyjZZCtn_g-26" target="_0f5t6AqNhmyjZZCtn_g-11">
           <mxGeometry relative="1" as="geometry" />
@@ -421,14 +418,8 @@
         <mxCell id="_0f5t6AqNhmyjZZCtn_g-27" value="6. 读取日志" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="620" y="140" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EDLOY2vdmu7FwVInXDld-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_0f5t6AqNhmyjZZCtn_g-11" target="_0f5t6AqNhmyjZZCtn_g-14">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="620" y="370" as="sourcePoint" />
-            <mxPoint x="670" y="320" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="617" y="340" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="EDLOY2vdmu7FwVInXDld-4" value="4. 定期读服务聚类模型" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="260" width="105.48" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
