@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T12:22:38.228Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="lglt6XSOZtttGqd3zUu_" version="24.2.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-04-16T12:24:35.419Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="9WQWk6vIEzssR6-vNVQ4" version="24.2.3" type="github" pages="11">
   <diagram name="第 1 页" id="4bH2OYBJ3_KZCi955wEy">
     <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1906,6 +1906,24 @@
         </mxCell>
         <mxCell id="elApa3B-mX2Pdz8CYVjo-31" value="dataverse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-32" value="6. 离线集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="390" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-33" value="数仓" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-34" value="7. 离线资源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="450" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-35" value="数据引擎" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-36" value="8. 重跑任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="510" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-37" value="dataverse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="510" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
