@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T12:25:49.114Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="C4Z9yh7f5je68q8cM2Lh" version="24.2.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-05-09T06:59:55.362Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="HzGlzIprKqF59EhgQliB" version="24.3.1" type="github" pages="12">
   <diagram name="第 1 页" id="4bH2OYBJ3_KZCi955wEy">
     <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1828,102 +1828,146 @@
     </mxGraphModel>
   </diagram>
   <diagram id="swLsI5YOavNElmWzAFAJ" name="Page-11">
-    <mxGraphModel dx="1195" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-1" value="agent故障" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-1" value="agent故障" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="80" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-2" value="distcp故障" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-2" value="distcp故障" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="80" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-3" value="小时级数据校验故障" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-3" value="小时级数据校验故障" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="80" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-5" value="离线数据补数据" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-5" value="离线数据补数据" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="280" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="210" y="60" width="50" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-9" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;direction=south;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-9" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;direction=south;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="145" y="-75" width="20" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-10" value="故障类型" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-10" value="故障类型" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="95" y="-20" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-11" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;direction=south;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-11" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;direction=south;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="337.5" y="-62.5" width="20" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-12" value="故障Action" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-12" value="故障Action" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="284" y="-20" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-13" value="Action Item" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-13" value="Action Item" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="483.75" y="-20" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-14" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;direction=south;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-14" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;direction=south;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="545.63" y="-93.12" width="20" height="226.25" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-17" value="1.确认ods表影响面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-17" value="1.确认ods表影响面" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="60" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-20" value="可观测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-20" value="可观测" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="60" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-21" value="2.确认ods下游影响面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-21" value="2.确认ods下游影响面" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="123.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-22" value="dataverse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-22" value="dataverse" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="123.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-23" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=10.833333333333334;endSize=6.25;" edge="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-23" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=10.833333333333334;endSize=6.25;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="680" y="138.07999999999998" as="sourcePoint" />
             <mxPoint x="730" y="138.07999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-24" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;非跨天&lt;/font&gt;&lt;/b&gt;平均每个ods会影响&lt;b&gt;100&lt;/b&gt;个下游任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-24" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;非跨天&lt;/font&gt;&lt;/b&gt;平均每个ods会影响&lt;b&gt;100&lt;/b&gt;个下游任务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="737" y="102.5" width="243" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-25" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;跨天&lt;/font&gt;&lt;/b&gt;平均每个ods会影响&lt;b&gt;1000&lt;/b&gt;个下游任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-25" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;跨天&lt;/font&gt;&lt;/b&gt;平均每个ods会影响&lt;b&gt;1000&lt;/b&gt;个下游任务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="737" y="141" width="243" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-26" value="3.影响面groupby owner" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-26" value="3.影响面groupby owner" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="190" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-27" value="可观测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-27" value="可观测" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="190" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-28" value="4. 与所有owner分别确认重跑的幂等性、必要性" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-28" value="4. 与所有owner分别确认重跑的幂等性、必要性" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="240" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-29" value="可观测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-29" value="可观测" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="250" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-30" value="5. 根据确认情况计算出重跑任务的任务图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-30" value="5. 根据确认情况计算出重跑任务的任务图" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="320" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-31" value="dataverse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-31" value="dataverse" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="320" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-32" value="6. 离线集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-32" value="6. 离线集群" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="390" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-33" value="数仓" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-33" value="数仓" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="390" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-34" value="7. 离线资源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-34" value="7. 离线资源" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="450" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-35" value="数据引擎" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-35" value="数据引擎" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="450" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-36" value="8. 重跑任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-36" value="8. 重跑任务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="510" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="elApa3B-mX2Pdz8CYVjo-37" value="dataverse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="elApa3B-mX2Pdz8CYVjo-37" value="dataverse" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XAb6Q1VRxZq6zYLCS-zC" name="Page-12">
+    <mxGraphModel dx="869" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="35Fsd0iIVhG1CG5ZiS21-1" value="user" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="35Fsd0iIVhG1CG5ZiS21-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="35Fsd0iIVhG1CG5ZiS21-2" target="35Fsd0iIVhG1CG5ZiS21-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="35Fsd0iIVhG1CG5ZiS21-2" value="规则" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="35Fsd0iIVhG1CG5ZiS21-3" value="聚类结果" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="430" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="35Fsd0iIVhG1CG5ZiS21-5" value="统计/筛选" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="344" y="200" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="35Fsd0iIVhG1CG5ZiS21-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="35Fsd0iIVhG1CG5ZiS21-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="270" as="sourcePoint" />
+            <mxPoint x="200" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35Fsd0iIVhG1CG5ZiS21-7" value="主动设置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="35Fsd0iIVhG1CG5ZiS21-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="35Fsd0iIVhG1CG5ZiS21-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="360" as="sourcePoint" />
+            <mxPoint x="140" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35Fsd0iIVhG1CG5ZiS21-9" value="被动接收" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="275" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
