@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T03:23:22.711Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="FbW4jO7RlKypzZcske7M" version="24.3.1" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2024-05-16T03:25:17.086Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="PHfTPzUR7TK2ExRrETWQ" version="24.3.1" type="github" pages="14">
   <diagram id="t8jZ6LB-4pXcLSNSmTBU" name="agentsmith架构">
     <mxGraphModel dx="1304" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -182,7 +182,16 @@
           <mxGeometry x="163.83" y="1030" width="92.35" height="83" as="geometry" />
         </mxCell>
         <mxCell id="je6X2cnPj1PXkC9iYbDb-50" value="distcp任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="205" y="805" width="80" height="30" as="geometry" />
+          <mxGeometry x="220" y="805" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-51" value="hivesql任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="970" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-52" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="315" y="800" width="20" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-53" value="dataverse离线任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="940" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
