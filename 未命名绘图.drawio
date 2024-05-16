@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T02:56:29.253Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="n_3LvjtuBmzNDdckJvtY" version="24.3.1" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2024-05-16T02:58:00.864Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="4NctF9FpjGaC9-jqMN2l" version="24.3.1" type="github" pages="14">
   <diagram id="t8jZ6LB-4pXcLSNSmTBU" name="agentsmith架构">
-    <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1062" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,13 +11,31 @@
           <mxGeometry x="40" y="230" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je6X2cnPj1PXkC9iYbDb-3" value="flume agent" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="240" y="90" width="130" height="110" as="geometry" />
+          <mxGeometry x="230" y="70" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="je6X2cnPj1PXkC9iYbDb-4" value="业务pod1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je6X2cnPj1PXkC9iYbDb-5" value="业务pod2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.241;entryY=-0.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="je6X2cnPj1PXkC9iYbDb-5" target="je6X2cnPj1PXkC9iYbDb-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="410" as="sourcePoint" />
+            <mxPoint x="170" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.773;exitY=-0.031;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="je6X2cnPj1PXkC9iYbDb-2" target="je6X2cnPj1PXkC9iYbDb-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="250" as="sourcePoint" />
+            <mxPoint x="320" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-8" value="sdk输出" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-9" value="agent采集" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
