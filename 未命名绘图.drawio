@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T05:59:41.780Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="6JvYiVYhYjrkCxE1Nv8w" version="24.3.1" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2024-05-16T07:08:02.959Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="WMx6J5MKRZSjJTtJ0vy1" version="24.3.1" type="github" pages="16">
   <diagram id="t8jZ6LB-4pXcLSNSmTBU" name="agentsmith1架构-业务视角">
     <mxGraphModel dx="1304" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -468,6 +468,21 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="725" as="sourcePoint" />
             <mxPoint x="510" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wZ56tEmqL1RUXrIxmaD4-1" value="S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="670" y="230" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ56tEmqL1RUXrIxmaD4-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="spBAvweSm2FjRKACWpts-1" target="wZ56tEmqL1RUXrIxmaD4-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="170" as="sourcePoint" />
+            <mxPoint x="690" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wZ56tEmqL1RUXrIxmaD4-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="spBAvweSm2FjRKACWpts-2" target="wZ56tEmqL1RUXrIxmaD4-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="360" as="sourcePoint" />
+            <mxPoint x="640" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
