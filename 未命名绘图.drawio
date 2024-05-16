@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T03:02:10.489Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="tY7Yn9z2fZMEku8hqa0H" version="24.3.1" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2024-05-16T03:04:03.406Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="fYjonKWVnfc4spPG7KcZ" version="24.3.1" type="github" pages="14">
   <diagram id="t8jZ6LB-4pXcLSNSmTBU" name="agentsmith架构">
     <mxGraphModel dx="1062" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,7 +38,7 @@
           <mxGeometry x="310" y="357" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="je6X2cnPj1PXkC9iYbDb-10" value="node1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="170" y="170" width="80" height="40" as="geometry" />
+          <mxGeometry x="175" y="460" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="je6X2cnPj1PXkC9iYbDb-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="217" width="330" height="170" as="geometry" />
@@ -71,7 +71,10 @@
           <mxGeometry x="730" y="357" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="je6X2cnPj1PXkC9iYbDb-20" value="node2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="590" y="170" width="80" height="40" as="geometry" />
+          <mxGeometry x="595" y="460" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-21" value="smithweb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="370" y="80" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
