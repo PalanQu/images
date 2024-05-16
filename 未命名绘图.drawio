@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T02:51:27.045Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="8A0h4LjG__z7rtNbVnei" version="24.3.1" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2024-05-16T02:56:29.253Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="n_3LvjtuBmzNDdckJvtY" version="24.3.1" type="github" pages="14">
   <diagram id="t8jZ6LB-4pXcLSNSmTBU" name="agentsmith架构">
     <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="330" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-2" value="主机磁盘" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-3" value="flume agent" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="240" y="90" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-4" value="业务pod1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-5" value="业务pod2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
