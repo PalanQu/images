@@ -1,44 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T03:00:58.697Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="6kCYXwmOXa8QRPojw8Dd" version="24.3.1" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2024-05-16T03:02:10.489Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="tY7Yn9z2fZMEku8hqa0H" version="24.3.1" type="github" pages="14">
   <diagram id="t8jZ6LB-4pXcLSNSmTBU" name="agentsmith架构">
     <mxGraphModel dx="1062" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="je6X2cnPj1PXkC9iYbDb-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="60" width="330" height="170" as="geometry" />
+          <mxGeometry x="50" y="217" width="330" height="170" as="geometry" />
         </mxCell>
         <mxCell id="je6X2cnPj1PXkC9iYbDb-2" value="主机磁盘" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="1">
-          <mxGeometry x="40" y="230" width="330" height="60" as="geometry" />
+          <mxGeometry x="50" y="387" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je6X2cnPj1PXkC9iYbDb-3" value="flume agent" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="230" y="70" width="130" height="130" as="geometry" />
+          <mxGeometry x="240" y="227" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="je6X2cnPj1PXkC9iYbDb-4" value="业务pod1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="70" width="120" height="60" as="geometry" />
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-4" value="业务A pod1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="227" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="je6X2cnPj1PXkC9iYbDb-5" value="业务pod2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-5" value="业务A pod2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="297" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je6X2cnPj1PXkC9iYbDb-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.241;entryY=-0.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="je6X2cnPj1PXkC9iYbDb-5" target="je6X2cnPj1PXkC9iYbDb-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="410" as="sourcePoint" />
-            <mxPoint x="170" y="360" as="targetPoint" />
+            <mxPoint x="130" y="567" as="sourcePoint" />
+            <mxPoint x="180" y="517" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="je6X2cnPj1PXkC9iYbDb-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.773;exitY=-0.031;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="je6X2cnPj1PXkC9iYbDb-2" target="je6X2cnPj1PXkC9iYbDb-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="270" y="250" as="sourcePoint" />
-            <mxPoint x="320" y="200" as="targetPoint" />
+            <mxPoint x="280" y="407" as="sourcePoint" />
+            <mxPoint x="330" y="357" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="je6X2cnPj1PXkC9iYbDb-8" value="sdk输出" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="200" width="60" height="30" as="geometry" />
+          <mxGeometry x="130" y="357" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="je6X2cnPj1PXkC9iYbDb-9" value="agent采集" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="200" width="60" height="30" as="geometry" />
+          <mxGeometry x="310" y="357" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="je6X2cnPj1PXkC9iYbDb-10" value="node1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="160" y="13" width="80" height="40" as="geometry" />
+          <mxGeometry x="170" y="170" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="217" width="330" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-12" value="主机磁盘" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="470" y="387" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-13" value="flume agent" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="660" y="227" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-15" value="业务A pod3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="297" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.241;entryY=-0.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="je6X2cnPj1PXkC9iYbDb-15" target="je6X2cnPj1PXkC9iYbDb-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="567" as="sourcePoint" />
+            <mxPoint x="600" y="517" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.773;exitY=-0.031;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="je6X2cnPj1PXkC9iYbDb-12" target="je6X2cnPj1PXkC9iYbDb-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="407" as="sourcePoint" />
+            <mxPoint x="750" y="357" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-18" value="sdk输出" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="357" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-19" value="agent采集" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="357" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="je6X2cnPj1PXkC9iYbDb-20" value="node2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="590" y="170" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
