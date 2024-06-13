@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T07:32:48.045Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="C8TNZl-DWKVsMvLJD9w5" version="24.4.13" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2024-06-13T07:36:57.404Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="OL0AVIAHx_zaLH1T-99I" version="24.4.13" type="github" pages="17">
   <diagram id="t8jZ6LB-4pXcLSNSmTBU" name="agentsmith1架构-业务视角">
     <mxGraphModel dx="1304" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2545,21 +2545,45 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VBqJ08L5SjuzAQ90LtVy" name="Page-17">
-    <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="541" dy="300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PklD7zh4El9yAQ-YlCKm-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="120" width="230" height="260" as="geometry" />
+          <mxGeometry x="70" y="190" width="230" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="PklD7zh4El9yAQ-YlCKm-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="210" width="270" height="240" as="geometry" />
         </mxCell>
         <mxCell id="PklD7zh4El9yAQ-YlCKm-3" value="日志采集agent （Daemonset）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="130" y="310" width="210" height="60" as="geometry" />
+          <mxGeometry x="80" y="380" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PklD7zh4El9yAQ-YlCKm-4" value="业务pod1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="590" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PklD7zh4El9yAQ-YlCKm-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.012;entryY=0.54;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PklD7zh4El9yAQ-YlCKm-5" target="PklD7zh4El9yAQ-YlCKm-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PklD7zh4El9yAQ-YlCKm-5" value="业务pod2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="590" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PklD7zh4El9yAQ-YlCKm-7" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;日志采集agent （Daemonset）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="390" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PklD7zh4El9yAQ-YlCKm-8" value="容器磁盘" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="210" width="70" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="PklD7zh4El9yAQ-YlCKm-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.996;entryY=0.208;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PklD7zh4El9yAQ-YlCKm-4" target="PklD7zh4El9yAQ-YlCKm-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="290" as="sourcePoint" />
+            <mxPoint x="520" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PklD7zh4El9yAQ-YlCKm-11" value="通过标准输出写日志" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="470" y="234" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PklD7zh4El9yAQ-YlCKm-12" value="通过标准输出写日志" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="471" y="315" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
