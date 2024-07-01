@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T15:38:13.484Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="p11Be4BSnN2hKlYinnzR" version="24.6.4" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2024-07-01T15:39:14.625Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="SYZ_yNrWrQaYvQtTSAua" version="24.6.4" type="github" pages="19">
   <diagram id="t8jZ6LB-4pXcLSNSmTBU" name="agentsmith1架构-业务视角">
     <mxGraphModel dx="1304" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2654,12 +2654,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jW70_LZMukk4s4ckEcam" name="Page-19">
-    <mxGraphModel dx="1783" dy="1699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4412" dy="3157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="C0aBL1r708qeB4-AzNfW-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="-460" width="720" height="540" as="geometry" />
+          <mxGeometry x="560" y="-460" width="720" height="460" as="geometry" />
         </mxCell>
         <mxCell id="6pDFYrzyDd1bmECPLLno-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="623" y="-219" width="220" height="200" as="geometry" />
