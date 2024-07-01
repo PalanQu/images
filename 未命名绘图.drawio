@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T15:25:26.748Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="uqkBNy0n7wx94CjSpgzw" version="24.6.4" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2024-07-01T15:26:18.617Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="SgrJH2jXno3iMWmivHXA" version="24.6.4" type="github" pages="19">
   <diagram id="t8jZ6LB-4pXcLSNSmTBU" name="agentsmith1架构-业务视角">
     <mxGraphModel dx="1304" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2654,7 +2654,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jW70_LZMukk4s4ckEcam" name="Page-19">
-    <mxGraphModel dx="2022" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1696" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2996,6 +2996,12 @@
         </mxCell>
         <mxCell id="6pDFYrzyDd1bmECPLLno-190" value="redbi、dor" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="212" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6pDFYrzyDd1bmECPLLno-192" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6pDFYrzyDd1bmECPLLno-191" target="6pDFYrzyDd1bmECPLLno-190">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6pDFYrzyDd1bmECPLLno-191" value="业务、数仓" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="257" y="1580" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
