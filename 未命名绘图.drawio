@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T15:28:30.571Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="4LtyCAkCguMJLGtodklo" version="24.6.4" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2024-07-01T15:28:42.726Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="dTAlKp1G31PCZtl0J1_A" version="24.6.4" type="github" pages="19">
   <diagram id="t8jZ6LB-4pXcLSNSmTBU" name="agentsmith1架构-业务视角">
     <mxGraphModel dx="1304" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2754,21 +2754,21 @@
           <mxGeometry x="1193" y="958.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6pDFYrzyDd1bmECPLLno-44" value="平台依赖" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="190" width="120" height="680" as="geometry" />
+          <mxGeometry x="-101" y="30" width="120" height="680" as="geometry" />
         </mxCell>
         <mxCell id="6pDFYrzyDd1bmECPLLno-45" value="kafka events平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-369" y="241" width="120" height="60" as="geometry" />
+          <mxGeometry x="-360" y="81" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6pDFYrzyDd1bmECPLLno-46" value="dataverse平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-369" y="521" width="120" height="60" as="geometry" />
+          <mxGeometry x="-360" y="361" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6pDFYrzyDd1bmECPLLno-47" value="kafka schema平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-369" y="381" width="120" height="60" as="geometry" />
+          <mxGeometry x="-360" y="221" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6pDFYrzyDd1bmECPLLno-48" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.003;exitY=0.202;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="6pDFYrzyDd1bmECPLLno-45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-110.3599999999999" y="269.0799999999999" as="sourcePoint" />
-            <mxPoint x="-180" y="269" as="targetPoint" />
+            <mxPoint x="-101.3599999999999" y="109.07999999999993" as="sourcePoint" />
+            <mxPoint x="-171" y="109" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6pDFYrzyDd1bmECPLLno-49" value="获取集群信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6pDFYrzyDd1bmECPLLno-48">
@@ -2778,8 +2778,8 @@
         </mxCell>
         <mxCell id="6pDFYrzyDd1bmECPLLno-50" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.003;exitY=0.202;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-110" y="408.6" as="sourcePoint" />
-            <mxPoint x="-249" y="408.6" as="targetPoint" />
+            <mxPoint x="-101" y="248.60000000000002" as="sourcePoint" />
+            <mxPoint x="-240" y="248.60000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6pDFYrzyDd1bmECPLLno-51" value="获取schema信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6pDFYrzyDd1bmECPLLno-50">
@@ -2789,8 +2789,8 @@
         </mxCell>
         <mxCell id="6pDFYrzyDd1bmECPLLno-52" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.003;exitY=0.202;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-110" y="550.6" as="sourcePoint" />
-            <mxPoint x="-249" y="550.6" as="targetPoint" />
+            <mxPoint x="-101" y="390.6" as="sourcePoint" />
+            <mxPoint x="-240" y="390.6" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6pDFYrzyDd1bmECPLLno-53" value="生成离线任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6pDFYrzyDd1bmECPLLno-52">
@@ -2799,12 +2799,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6pDFYrzyDd1bmECPLLno-54" value="数据湖平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-369" y="661" width="120" height="60" as="geometry" />
+          <mxGeometry x="-360" y="501" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6pDFYrzyDd1bmECPLLno-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6pDFYrzyDd1bmECPLLno-54">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-200" y="701" as="sourcePoint" />
-            <mxPoint x="-110" y="691" as="targetPoint" />
+            <mxPoint x="-191" y="541" as="sourcePoint" />
+            <mxPoint x="-101" y="531" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6pDFYrzyDd1bmECPLLno-56" value="获取任务信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6pDFYrzyDd1bmECPLLno-55">
