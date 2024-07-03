@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T02:50:10.470Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="onGmNQYyLTQOLdzb7wBt" version="24.6.4" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2024-07-03T02:50:16.244Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="zIcq9MiZyIZf3e8KOPgL" version="24.6.4" type="github" pages="20">
   <diagram id="t8jZ6LB-4pXcLSNSmTBU" name="agentsmith1架构-业务视角">
     <mxGraphModel dx="1304" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3167,7 +3167,7 @@
           <mxGeometry x="930" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7PoG1q07TO9TMMrNvISr-52" value="获取protobuf schema" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="783" y="530" width="140" height="30" as="geometry" />
+          <mxGeometry x="788" y="530" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
