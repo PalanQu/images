@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T07:53:45.160Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="eH-wzuXWrNV3A-aQ7ZNd" version="24.6.4" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2024-07-06T13:44:53.969Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="G2FtMy0ejLNrioEiv_hu" version="24.6.4" type="github" pages="22">
   <diagram id="t8jZ6LB-4pXcLSNSmTBU" name="agentsmith1架构-业务视角">
     <mxGraphModel dx="1304" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3628,6 +3628,65 @@
         </mxCell>
         <mxCell id="hS2swXEOlqJosVKpRL76-110" value="flink" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-70" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_dXpJmXf5WUEj-c8v5K1" name="第 22 页">
+    <mxGraphModel dx="1964" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="geShVVB1dC3TdstsVhdq-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="410" width="720" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="geShVVB1dC3TdstsVhdq-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="70" width="950" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="geShVVB1dC3TdstsVhdq-1" value="s1: Data Worker" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="geShVVB1dC3TdstsVhdq-2" value="s2: Peer Manager" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="geShVVB1dC3TdstsVhdq-4" value="s3: M&lt;span style=&quot;font-size: 14px; text-align: left; white-space-collapse: preserve; background-color: initial;&quot;&gt;aster Time Reel&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="380" y="120" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="geShVVB1dC3TdstsVhdq-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="geShVVB1dC3TdstsVhdq-5" target="geShVVB1dC3TdstsVhdq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="geShVVB1dC3TdstsVhdq-5" value="s4: F&lt;span style=&quot;font-size: 14px; text-align: left; white-space-collapse: preserve; background-color: initial;&quot;&gt;rame Validator&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="380" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="geShVVB1dC3TdstsVhdq-7" value="save frame" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="geShVVB1dC3TdstsVhdq-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="geShVVB1dC3TdstsVhdq-8" target="geShVVB1dC3TdstsVhdq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="geShVVB1dC3TdstsVhdq-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="geShVVB1dC3TdstsVhdq-8" target="geShVVB1dC3TdstsVhdq-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="geShVVB1dC3TdstsVhdq-8" value="s5: B&lt;span style=&quot;font-size: 14px; text-align: left; white-space-collapse: preserve; background-color: initial;&quot;&gt;andwidth Tester&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="geShVVB1dC3TdstsVhdq-10" value="save peer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="geShVVB1dC3TdstsVhdq-12" value="Your node" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="80" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="geShVVB1dC3TdstsVhdq-14" value="Others node" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="430" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="geShVVB1dC3TdstsVhdq-15" value="s8: c&lt;span style=&quot;font-size: 14px; text-align: left; white-space-collapse: preserve; background-color: initial;&quot;&gt;hannel listener&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="200" y="440" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="geShVVB1dC3TdstsVhdq-17" value="s8: C&lt;span style=&quot;font-size: 14px; text-align: left; white-space-collapse: preserve; background-color: initial;&quot;&gt;hannel Listener&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="30" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="geShVVB1dC3TdstsVhdq-18" value="s6:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: left; white-space-collapse: preserve; background-color: initial;&quot;&gt;Challenge Proof Verifier&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
