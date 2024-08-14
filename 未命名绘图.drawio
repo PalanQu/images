@@ -910,6 +910,15 @@
         <mxCell id="EDLOY2vdmu7FwVInXDld-4" value="4. 定期读服务聚类模型" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="260" width="105.48" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="TlIc62J_InBMUcUgGuX7-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TlIc62J_InBMUcUgGuX7-1" target="_0f5t6AqNhmyjZZCtn_g-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TlIc62J_InBMUcUgGuX7-1" value="变更平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TlIc62J_InBMUcUgGuX7-3" value="7.读取变更前后聚类对比" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="70" width="150" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
