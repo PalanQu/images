@@ -4445,6 +4445,9 @@
         <mxCell id="OS0Nm5PhubauJp6pF_27-16" value="Flusher" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="865" y="430" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="OS0Nm5PhubauJp6pF_27-17" value="异步IO请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="260" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
